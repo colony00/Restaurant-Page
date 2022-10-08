@@ -39,9 +39,11 @@ function loadFrontPage() {
 }
 function loadMenu() {
   document.body.appendChild(menuBar());
-  document.body.appendChild(menu())
+  document.body.appendChild(menu());
+  eventListeners();
 }
 function loadContact() {
   document.body.appendChild(menuBar());
-  document.body.appendChild(contact())
+  document.body.appendChild(contact());
+  eventListeners();
 }

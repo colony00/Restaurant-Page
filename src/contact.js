@@ -1,3 +1,5 @@
+import './style-contact.css';
+
 export default function contact() {
   const Contact = document.createElement("div");
   const title = document.createElement("h1");

@@ -1,4 +1,5 @@
 import Steak from './loija-nguyen-NYBnDWeOX2c-unsplash.jpg';
+import './style-frontpage.css';
 
 export default function frontPage() {
   const frontpage = document.createElement('div');

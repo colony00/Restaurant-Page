@@ -1,3 +1,5 @@
+import './style-menuBar.css'
+
 export default function menuBar() {
   const bar = document.createElement("div");
   bar.classList.add("menuBar");

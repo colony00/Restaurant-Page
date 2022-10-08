@@ -1,10 +1,17 @@
+import './style-menu.css'
+
 export default function menu() {
-  const Menu = document.createElement("ul");
+  const Menu = document.createElement("div");
+  const title = document.createElement("h1");
+  title.textContent = "Menu";
+  const menuList = document.createElement("ul");
 
-  Menu.appendChild(menuItem("Cheese Steak","Molten cheezewiz pooren upon rare steak","£19"))
-  Menu.appendChild(menuItem("Steak","Regular well-done steak","£39"))
-  Menu.appendChild(menuItem("Salad","Lettuce and tomato","£10"))
+  menuList.appendChild(menuItem("Cheese Steak","Molten cheezewiz pooren upon rare steak","£19"))
+  menuList.appendChild(menuItem("Steak","Regular well-done steak","£39"))
+  menuList.appendChild(menuItem("Salad","Lettuce and tomato","£10"))
 
+  Menu.appendChild(title);
+  Menu.appendChild(menuList)
   return Menu;
 }
 

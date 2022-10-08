@@ -1,0 +1,13 @@
+.menuBar {
+  position: fixed;
+  top: 0;
+  background: red;
+  height: 20px;
+  width: 100vw;
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
