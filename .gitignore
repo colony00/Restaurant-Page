@@ -1,0 +1,2 @@
+# ignore all files in node_modules. Instead use node install to install dependencies.
+node_modules/
